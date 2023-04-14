@@ -1,0 +1,11 @@
+What is a <div> tag and how is it implemented? use a functional example to explain your answer.
+Divs tag are used to section up webpages to make it easier to edit individual parts of a webpage.
+
+How is JavaScript used to manipulate the content that is within a particular <div> tag? Respond to the question using an example.
+If you would want to change the color of some text after a button is clicked you would need to find the id of the tag the text is in and then select it with the js function of document.get.... and enter the id between the brackets then put in the css function you want to use.
+
+Explain the following code document.form.text1.value
+from this document from form from text1's value
+
+Write code to validate an email. Comment the code out. Please note that responses will be checked for plagiarism. If you are not sure or if in doubt ask your mentor for assistance.
+var emailCheck = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/

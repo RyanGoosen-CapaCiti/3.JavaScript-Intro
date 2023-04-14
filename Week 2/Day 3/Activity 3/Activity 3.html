@@ -1,0 +1,209 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style (1).css">
+
+  <title>About Us | Mzamomtsha Primary School</title>
+  <link rel="icon" href="Images/badge.ico" type="image/icon">
+</head>
+
+
+<div id="body" style="background-color: #083B66; ">
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog ">
+      <!-- Modal content-->
+
+      <!-- HEADER -->
+      <div class="modal-content modal_overlay">
+        <div class="modal-header">
+          <div class="col text-center">
+            <img src="Images/handshake.png" alt="handshake" class="img-fluid imghands" />
+          </div>
+          <div class="col-8 text-center">
+            <h1 class="fw-normal text-center modal_header" style="font-variant: small-caps">
+              Every Donation Helps
+            </h1>
+          </div>
+          <div class="col text-center">
+            <img src="Images/handshake.png" alt="handshake" class="img-fluid imghands" />
+          </div>
+        </div>
+        <!-- HEADER DONE -->
+
+
+        <!-- MODAL BODY -->
+        <div class="modal-body">
+          <form>
+            <div class="container-fluid">
+              <h1 class="modal_sub_headers text-strat mb-4">
+                Payment Plan:
+              </h1>
+              <!-- *********************************************** -->
+              <!-- AMOUNT DONATED -->
+              <div class="row g-3">
+
+                <div class="col-sm-12">
+                  <div class="row_hover rounded row_box label_amount">
+                    <label for="OF100" class="form-check-label label_button m-1 label_amount" id="R100"
+                      style="width: 100%; height: 100%;">
+                      <input type="radio" name="DAmount" class="form-check-input rounded input_transparent label_amount"
+                        value="100" id="OF100" />
+                      R 100
+                      <span class="subtext_button">
+                        YOUR DONATIONS PAVES THE WAY FOR MORE
+                      </span>
+                    </label>
+                  </div>
+                </div>
+
+
+                <div class="col-sm-12">
+                  <div class="row_hover rounded row_box label_amount">
+                    <label for="OF200" class="form-check-label label_button m-1 label_amount" id="R200"
+                      style="width: 100%; height: 100%;">
+                      <input type="radio" name="DAmount" class="form-check-input rounded label_amount" value="200"
+                        id="OF200" />
+                      R 200
+                      <span class="subtext_button">
+                        YOU JUST BOUGHT A CHILD A TABLE
+                      </span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                  <div class="row_hover rounded row_box label_amount">
+                    <label for="OF350" class="form-check-label label_button m-1 label_amount" id="R350"
+                      style="width: 100%; height: 100%;">
+                      <input type="radio" name="DAmount" class="form-check-input rounded label_amount" value="350"
+                        id="OF350" />
+                      R 350
+                      <span class="subtext_button">
+                        MONEY JUST BE FLOWING OUT YOUR POCKETS
+                      </span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                  <div class="row_hover rounded row_box label_amount">
+                    <label for="OF500" class="form-check-label label_button m-1 label_amount" id="R500"
+                      style="width: 100%; height: 100%;">
+                      <input type="radio" name="DAmount" class="form-check-input rounded radio label_amount" value="500"
+                        id="OF500" />
+                      R 500
+                      <span class="subtext_button">
+                        YOU ARE A HIGH ROLLER AINT YA
+                      </span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Own Amount -->
+                <div class="col-sm-12">
+                  <div class="input-group hover-text">
+                    <span class="input-group-text" id="basic-addon1" style="background: white;">R</span>
+                    <input type="number" class="form-control rounded" placeholder="Own Amount" min="50.00" max="1000"
+                      step="10" oninput="setTwoNumberDecimal(this)" id="amountInput" style="width: 90%;">
+                    <span class="tooltip-text rounded">Minimum amount of R 50.00</span>
+                  </div>
+                </div>
+              </div>
+              <!-- AMOUNT DONATED END-->
+
+
+              <!-- ONCE OFF / RECURING -->
+              <div class="row mb-5">
+                <div class="col-sm-6 text-center">
+                  <input type="radio" name="ButtonRP" class="form-check-input ButtonStateRP" value="once-off"
+                    name="payment" id="OFP" />
+                  <label class="ButtonRP form-control" for="OFP">Once Off Payment</label>
+                </div>
+                <div class="col-sm-6 text-center">
+                  <input type="radio" name="ButtonRP" class="form-check-input ButtonStateRP" value="recurring" id="RMP"
+                    style="width: 100%;" />
+                  <label class="ButtonRP form-control" for="RMP" style="width: 100%;">Recuring Monthly Payment</label>
+                </div>
+              </div>
+              <!-- *********************************************** -->
+
+
+
+
+
+              <h1 class="modal_sub_headers text-strat mb-4">
+                Card Information:
+              </h1>
+              <!-- debit card credit card promt -->
+              <div class="row g-3">
+                <div class="col-sm-12">
+                  <label for="CardNum" class="form-label">Card Number*</label>
+                  <input type="number" class="form-control input" id="CardNum" aria-describedby="Amount" />
+                </div>
+
+                <label for="month" class="form-label">Experation Date*</label>
+                <div class="row" id="month">
+                  <div class="col-6" id="month" style="width: 50%;">
+                    <select class="form-select" id="month">
+                      <option>Jan</option>
+                      <option>Feb</option>
+                      <option>Mrt</option>
+                      <option>Apr</option>
+                      <option>May</option>
+                      <option>Jun</option>
+                      <option>Jul</option>
+                      <option>Aug</option>
+                      <option>Sep</option>
+                      <option>Oct</option>
+                      <option>Nov</option>
+                      <option>Dec</option>
+                    </select>
+                  </div>
+
+                  <div class="col-6" style="width: 50%;">
+                    <select class="form-select" id="month">
+                      <option>2023</option>
+                      <option>2024</option>
+                      <option>2025</option>
+                      <option>2026</option>
+                      <option>2027</option>
+                      <option>2028</option>
+                      <option>2029</option>
+                      <option>2030</option>
+                      <option>2031</option>
+                      <option>2032</option>
+                      <option>2033</option>
+                      <option>2034</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                  <label for="amountInput" class="form-label">CSV*</label>
+                  <input type="number" class="form-control input" id="amountInput" aria-describedby="Amount" min="50.00"
+                    max="1000" name="item[amount]" />
+                </div>
+
+                <div class="col-sm-12" >
+                <button type="button" class="btn btn-primary" style="width: 100%;">DONATE</button>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+

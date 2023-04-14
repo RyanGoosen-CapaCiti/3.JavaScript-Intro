@@ -1,0 +1,20 @@
+What were the important features of the day?
+Learning validations
+
+What activities were beneficial?
+Activity 4
+
+What activities (if any) were too easy?
+None
+
+What activities need more time?
+None
+
+In the early exercises you worked on the following code 
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+What is this?
+Email validation
+How does it work 
+It check that there is an @ in your email
+How is it implemented?
+You compare it to what the user entered
