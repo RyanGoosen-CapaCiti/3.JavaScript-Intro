@@ -1,0 +1,40 @@
+<!-- Loop through all the inputs to check if they have been filled out.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Loop through all the inputs</h1>
+
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+
+      <button type="button" onclick="jack()">
+        Change color of the four borders
+      </button>
+    </form>
+
+    <script>
+      const inpts = document.getElementsByTagName("input");
+
+      function jack() {
+        for (i = 0; i < inpts.length; i++) {
+          if ((inpts[i].value == "")) {
+            inpts[i].style.borderColor = "red";
+          } else {
+            inpts[i].style.borderColor = "green";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+* { 
+    margin   :   0   ; 
+    padding   :   0   ; 
+    box-sizing: border-box; 
+  } 
+  
+  body { 
+    height   :   100   vh; 
+    width   :   100   vw; 
+  } 
+  
+  .background { 
+    height   :   100   vh; 
+    width   :   100   vw; 
+    background-color   : skyblue; 
+  } 
+  
+  .bird { 
+    height   :   100px   ; 
+    width   :   160px   ; 
+    position   :   fixed   ; 
+    top   :   40   vh; 
+    left   :   30   vw; 
+    z-index   :   100   ; 
+  } 
+  
+  .pipe_sprite { 
+    position   :   fixed   ; 
+    top   :   40   vh; 
+    left   :   100   vw; 
+    height   :   70   vh; 
+    width   :   6   vw; 
+    background-color   :   green   ; 
+  } 
+  
+  .message { 
+    position   :   fixed   ; 
+    z-index   :   10   ; 
+    height   :   10   vh; 
+    font-size   :   10   vh; 
+    font-weight   :   100   ; 
+    color   :   black   ; 
+    top   :   12   vh; 
+    left   :   20   vw; 
+    text-align   :   center   ; 
+  } 
+  
+  .score { 
+    position   :   fixed   ; 
+    z-index   :   10   ; 
+    height   :   10   vh; 
+    font-size   :   10   vh; 
+    font-weight   :   100   ; 
+    color   : goldenrod; 
+    top   :   0   ; 
+    left   :   0   ; 
+  } 
+  
+  .score_val { 
+    color   : gold; 
+  } 
